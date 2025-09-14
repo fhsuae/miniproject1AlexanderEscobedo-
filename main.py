@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 import copy
 from pathlib import Path
 
-# Create charts folder if it does ont exists
+# Create charts folder if it does not exists
 charts = Path('charts')
 if not charts.exists():
     Path(r'charts').mkdir()
