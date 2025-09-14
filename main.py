@@ -27,7 +27,7 @@ charts = Path('charts')
 if not charts.exists():
     Path(r'charts').mkdir()
 
-mystocks = ['MSFT', 'AAPL', 'NVDA', 'TSLA', 'GOOG']
+mystocks = ['AMZN', 'MSFT', 'WMT', 'TSLA', 'META']
 mystockdata = {}
 for stock in mystocks:
     dat = yf.Ticker(stock)
@@ -53,6 +53,5 @@ for stock in mystocks:
     plt.ylabel('Closing Price')
     plt.savefig(f'charts/{stock}.png')
     plt.show()
-
 
 
