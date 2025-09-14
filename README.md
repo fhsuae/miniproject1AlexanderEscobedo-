@@ -5,11 +5,11 @@
  
 # Project Title
  
-Miniproject 1 Stock Tickers.
+Miniproject 1 Stock Tickers
  
 ## Description
  
-This program will lookup 5 stock tickers and will present the user with 5 graphs. These graphs are automatically saved in the charts/ folder.
+This program will lookup 5 stock tickers and will present the user with 5 graphs. Those graphs are automatically saved in the charts/ folder.
  
 ## Getting Started
  
@@ -38,5 +38,5 @@ Alexander Escobedo
  
 ## Acknowledgments
 
-* [Mathplotlib Documentation](https://matplotlib.org/stable/users/index.html)
+* [Matplotlib Documentation](https://matplotlib.org/stable/users/index.html)
 * [yFinance Documentation](https://ranaroussi.github.io/yfinance/)
